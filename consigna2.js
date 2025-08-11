@@ -15,10 +15,11 @@ class CuentaBancaria {
 
   set extraer(monto) {
     if (monto > this.#saldoInicial) {
-      console.log( "Fondos insuficientes");
-    }
+      return console.log( "Fondos insuficientes");
+    }else{
      this.#saldoInicial -= monto;
   }
+}
   get consultarSaldo(){
     console.log(`4. Saldo Actual: $${this.saldoInicial}`)
   }
@@ -27,6 +28,6 @@ class CuentaBancaria {
 const Cuenta = new CuentaBancaria("Selene Fleita", 10000)
 console.log(`1. Tu saldo: $${Cuenta.saldoInicial}`)
 console.log(`2. Se ha depositado: $${Cuenta.depositar = 2000}`)
-console.log(`3. Haz extraido: $${Cuenta.extraer = 5000}`)
+console.log(`3. Haz extraido: $${Cuenta.extraer = 4000}`)
 Cuenta.consultarSaldo
 

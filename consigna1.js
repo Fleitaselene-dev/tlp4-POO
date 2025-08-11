@@ -10,7 +10,7 @@
   if(this.saldoInicial >= monto ){
     this.saldoInicial -= monto
   }else{
-    console.log("Fondos insuficientes")
+   return console.log("Fondos insuficientes")
   }
   };
   CuentaBancaria.prototype.consultarSaldo = function(){
