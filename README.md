@@ -1,11 +1,12 @@
+## Práctica: Programación Orientada a Objetos en JavaScript
+----
 ### Análisis final (teórico)
 - Respuestas:
-
 - ¿Qué diferencias, ventajas y desventajas encontrás entre usar funciones constructoras con prototype y usar class?
    Diferencias entre funciones constructoras con prototype y class:
   1. Prototype: Forma clasica o vieja de crear objetos  y heredar metodos.Se define una función, y luego se agregan métodos al objeto prototype para que todas las instancias los compartan.
   2. Class: Utilizado actualmente para la creacion de objetos; cuenta con una mejor estructura y sintaxis más clara.
-  - #### Ventajase:
+  - ### Ventajas:
     - ##### Prototype:
     - Compatibilidad con versiones antiguas de JavaScript.
     - Flexibilidad: manipulación directa a el prototipo, añadir o cambiar métodos en tiempo de ejecución.
@@ -13,7 +14,7 @@
     - Sintaxis clara (azúcar sintactico).
     - Mejor estructura para definir constructores, métodos, herencia y superclases.
     - Métodos declarados dentro de class van automáticamente al prototipo, evitando errores.
-  - ##### Desventajas:
+  - ### Desventajas:
     - ##### Prototype:
     - Sintaxis menos clara y dificil de entender.
     - Más propensa a errores si no se usa con new (puede regresar undefined o alterar el contexto global).
